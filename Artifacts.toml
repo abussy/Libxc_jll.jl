@@ -1,0 +1,18 @@
+[[Libxc]]
+arch = "aarch64"
+git-tree-sha1 = "247567e8f4869ff97188cb67e11c8ddd8891fba5"
+libc = "glibc"
+os = "linux"
+
+    [[Libxc.download]]
+    sha256 = "f45d2fe1a07f29b0ca9c72ac9c27b0608c95bc9f2d376242c3fba4e87055c0b0"
+    url = "https://github.com/abussy/Libxc_jll.jl/releases/download/Libxc-v7.0.0+0/Libxc.v7.0.0.aarch64-linux-gnu.tar.gz"
+[[Libxc]]
+arch = "x86_64"
+git-tree-sha1 = "413e1c8398d9608db15242404be1952bfac53c44"
+libc = "glibc"
+os = "linux"
+
+    [[Libxc.download]]
+    sha256 = "bff5b7876f93700a6c655bbbc9f2b01de77b34216a85c4c20e2850590e7d8fc7"
+    url = "https://github.com/abussy/Libxc_jll.jl/releases/download/Libxc-v7.0.0+0/Libxc.v7.0.0.x86_64-linux-gnu.tar.gz"
